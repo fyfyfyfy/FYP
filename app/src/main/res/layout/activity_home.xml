@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.wegot.fuyan.fyp.HomeActivity">
+
+    <TextView
+        android:text="WELCOME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/active_request_list"
+        android:layout_below="@+id/textview2"
+        android:layout_above="@+id/new_request_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Request"
+        android:id="@+id/new_request_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
